@@ -34,7 +34,7 @@ public class Estrategia4 implements EstrategiaBusqueda {
             //Estado que no sea la solución
             System.out.println((i++) + " - " + estadoActual + " no es meta");
             //Ahora, tal y como estreategia4 funciona en la lógica de este programa tenemos que comprobar
-            //Las acciones disponibles, siendo cada acción disponible el estado actual
+            //Las acciones disponibles, siendo cada acción disponible un tipo array Accion, que va a ser la accion en el problema en el estado actual.
             Accion[] accionesDisponibles = p.acciones(estadoActual);
             //De manera predeterminada pondremos modificado a un bool FALSE (realmente es como no poner nada porque)
             //De manera predeterminada ya sabemos que los valores bool están a false pero lo ponemos por si las moscas
