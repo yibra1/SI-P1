@@ -20,7 +20,7 @@ public class Estrategia4 implements EstrategiaBusqueda {
         ArrayList<Estado> explorados = new ArrayList<Estado>();
         Estado estadoActual = p.getEstadoInicial();
         explorados.add(estadoActual);
-        //Ahora no nos cale simplemente con los tres atributos que tenemos en el principio
+        //Ahora no nos vale simplemente con los tres atributos que tenemos en el principio
         //Ahora debemos de inicializar nodo.
         Nodo nodoActual = new Nodo(estadoActual, null, null, null);
 
